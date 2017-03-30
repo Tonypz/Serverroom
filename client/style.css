@@ -1,0 +1,23 @@
+#header{
+    background-color: antiquewhite;
+    height : 50px;
+}
+#footer{
+    background-color: bisque;
+    height : 60px;
+}
+
+#TableTemperature thead tr{
+    background-color: #b3d4fc;
+    color: aliceblue;
+}
+
+#TablePower thead tr{
+    background-color: darkseagreen;
+    color: aliceblue;
+}
+
+#TableFun thead tr {
+    background-color: #cccccc;
+    color: aliceblue;
+}

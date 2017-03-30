@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <scrypt src = "js/bootstrap.min.js"></scrypt>
+    <scrypt src = "jquery-3.1.1.slim.min"></scrypt>
+    <link rel="stylesheet" href="style.css">
+    <script async src="js/function_color.js"></script>
+
+
+</head>
+<body>
+    <div class="container" id = "container">
+        <div class="row" id = "header">
+            <div class="navbar-brand"> Стенд серверный - система мониторинга</div>
+        </div>
+        <!-- Таблица питания-->
+        <div class="row" id="power">
+            <div class="col-md-1"> </div>
+            <div class="col-md-10">
+                <p> <b> Питание удаленного сервера </b> </p>
+                <table class="table table-bordered" id ="TablePower">
+                    <thead>
+                        <tr>
+                            <td> № </td>
+                            <td> Имя </td>
+                            <td>  IP </td>
+                            <td>  Состояние </td>
+                            <td> Время работы </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td> 1 </td>
+                            <td> SuperMicro </td>
+                            <td> 192.168.1.1 </td>
+                            <td> Power Of </td>
+                            <td> 10 часов </td>
+                        </tr>
+
+                        <tr>
+                            <td> 2 </td>
+                            <td> GigabiteServer </td>
+                            <td> 192.168.1.0 </td>
+                            <td> Power Of </td>
+                            <td> - </td>
+                        </tr>
+
+                        <tr>
+                            <td> 3 </td>
+                            <td> Hp Server </td>
+                            <td> 192.168.1.0 </td>
+                            <td> Power Of </td>
+                            <td> - </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-1"> </div>
+        </div>
+
+        <!-- Таблица температуры-->
+         <div class="row" id="temperature">
+            <div class="col-md-1"> </div>
+            <div class="col-md-10">
+                <p> <b>  Температура процессора </b></p>
+                <table class = "table table-bordered" id = "TableTemperature">
+                    <thead>
+                    <tr>
+                        <td> № </td>
+                        <td> Имя </td>
+                        <td>  IP </td>
+                        <td>  Температура </td>
+                        <td> Время работы </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> SuperMicro </td>
+                        <td> 192.168.1.1 </td>
+                        <td> Power Of </td>
+                        <td> 10 часов </td>
+                    </tr>
+
+                    <tr>
+                        <td> 2 </td>
+                        <td> GigabiteServer </td>
+                        <td> 192.168.1.0 </td>
+                        <td> Power Of </td>
+                        <td> - </td>
+                    </tr>
+
+                    <tr>
+                        <td> 3 </td>
+                        <td> Hp Server </td>
+                        <td> 192.168.1.0 </td>
+                        <td> Power Of </td>
+                        <td> - </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-1"> </div>
+        </div>
+        <!-- Таблица вентилятор-->
+        <div class="row" id="fun">
+            <div class="col-md-1"> </div>
+            <div class="col-md-10">
+                <p> <b> Состояние вентиляторов </b> </p>
+            <table class="table table-bordered" id="TableFun">
+                <thead>
+                    <td> № </td>
+                    <td> Имя </td>
+                    <td>  IP </td>
+                    <td>  Значение вентиляторов </td>
+                    <td> Время работы </td>
+                </thead>
+                <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> SuperMicro </td>
+                    <td> 192.168.1.1 </td>
+                    <td> Power Of </td>
+                    <td> 10 часов </td>
+                </tr>
+
+                <tr>
+                    <td> 2 </td>
+                    <td> GigabiteServer </td>
+                    <td> 192.168.1.0 </td>
+                    <td> Power Of </td>
+                    <td> - </td>
+                </tr>
+
+                <tr>
+                    <td> 3 </td>
+                    <td> Hp Server </td>
+                    <td> 192.168.1.0 </td>
+                    <td> Power Of </td>
+                    <td> - </td>
+                </tr>
+                </tbody>
+
+            </table>
+            </div>
+            <div class="col-md-1"> </div>
+        </div>
+
+
+
+
+        <div class="row" id="footer">
+            <div class="col-md-2"> </div>
+            <div class="col-md-8">
+                footer
+            </div>
+            <div class="col-md-2"> </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
